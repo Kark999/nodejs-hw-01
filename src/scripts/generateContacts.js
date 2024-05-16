@@ -16,4 +16,4 @@ const generateContacts = async (number) => {
       console.log(err);
     });
 };
-await generateContacts(3);
+await generateContacts(6);
