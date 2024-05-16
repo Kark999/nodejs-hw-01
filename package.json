@@ -6,13 +6,13 @@
   "main": "index.js",
   "scripts": {
     "push": "git add . && git commit -m 'update' && git push",
-    "start": "nodejs-hw-01 src/index.js",
-    "get-all": "nodejs-hw-01 src/scripts/getAllContacts",
-    "generate": " nodejs-hw-01src/scripts/generateContacts.js",
-    "add-one": "nodejs-hw-01 src/scripts/addOneContact.js",
-    "count": "nodejs-hw-01 src/scripts/countContacts.js",
-    "thanos": "nodejs-hw-01 src/scripts/thanos.js",
-    "remove-all": "nodejs-hw-01 src/scripts/removeAllContacts.js"
+    "start": "node src/index.js",
+    "get-all": "node src/scripts/getAllContacts",
+    "generate": "node src/scripts/generateContacts.js",
+    "add-one": "node src/scripts/addOneContact.js",
+    "count": "node src/scripts/countContacts.js",
+    "thanos": "node src/scripts/thanos.js",
+    "remove-all": "node src/scripts/removeAllContacts.js"
   },
   "keywords": [],
   "author": "",
