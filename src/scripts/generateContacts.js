@@ -3,26 +3,17 @@ import { createFakeContact } from '../utils/createFakeContact.js';
 import fs from 'node:fs/promises';
 
 const generateContacts = async (number) => {
-  fs.readFile(PATH_DB, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading db.json:', err);
-      return;
-    }
-    const contacts = JSON.parse(data);
-
-    for (let i = 0; i < number; i++) {
-      const newContact = createFakeContact();
-      contacts.push(newContact);
-    }
-
-    fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2), 'utf8', (err) => {
-      if (err) {
-        console.error('Error writing to db.json:', err);
-        return;
+  fs.readFile(PATH_DB, 'utf-8')
+    .then((data) => {
+      const contacts = JSON.parse(data);
+      for (let i = 0; i < number; i += 1) {
+        const newContact = createFakeContact();
+        contacts.push(newContact);
       }
-      console.log(`Successfully added ${number} new contacts to db.json`);
+      fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2));
+    })
+    .catch((err) => {
+      console.log(err);
     });
-  });
 };
-
-await generateContacts(5);
+await generateContacts(3);

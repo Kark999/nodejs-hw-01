@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "Garrett Heaney",
+    "phone": "1-748-373-3506 x9459",
+    "email": "Art43@yahoo.com",
+    "job": "Forward Group Assistant"
+  },
+  {
+    "name": "Angelina Corkery",
+    "phone": "427.394.4719 x40147",
+    "email": "Pietro49@hotmail.com",
+    "job": "Principal Metrics Supervisor"
+  },
+  {
+    "name": "Celia Breitenberg",
+    "phone": "918-284-7887",
+    "email": "Laurence_Haley7@hotmail.com",
+    "job": "Corporate Accounts Representative"
+  },
+  {
+    "name": "Hannah Stark V",
+    "phone": "668-721-0413 x07793",
+    "email": "Osborne.Hane88@gmail.com",
+    "job": "Investor Functionality Coordinator"
+  },
+  {
+    "name": "Kelly Botsford",
+    "phone": "866-568-6936 x76320",
+    "email": "Ella_Brown99@gmail.com",
+    "job": "Chief Brand Strategist"
+  },
+  {
+    "name": "Lela Littel",
+    "phone": "1-889-690-4350 x1859",
+    "email": "Garland_Bayer@hotmail.com",
+    "job": "Customer Accounts Administrator"
+  },
+  {
+    "name": "Amanda Breitenberg",
+    "phone": "230.231.9760 x7971",
+    "email": "Arch64@hotmail.com",
+    "job": "Global Accountability Manager"
+  },
+  {
+    "name": "Yolanda Leffler",
+    "phone": "507.665.9214 x42491",
+    "email": "Madilyn28@yahoo.com",
+    "job": "Principal Configuration Assistant"
+  }
+]
